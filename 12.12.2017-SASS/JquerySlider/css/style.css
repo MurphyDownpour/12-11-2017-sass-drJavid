@@ -1,0 +1,65 @@
+#slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 300px;
+  background: lightgray; }
+  #slider .dotsPanel {
+    width: 100%;
+    position: absolute;
+    bottom: 15px;
+    text-align: center; }
+    #slider .dotsPanel .dots {
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      margin: 0px 10px;
+      background: black;
+      border-radius: 100%;
+      cursor: pointer; }
+  #slider .sliderItems {
+    position: absolute;
+    top: 50px; }
+    #slider .sliderItems .item {
+      width: 25vw;
+      display: inline-block;
+      margin-right: -4px;
+      position: relative;
+      height: 200px;
+      overflow: hidden; }
+      #slider .sliderItems .item img {
+        width: 100%; }
+      #slider .sliderItems .item h1 {
+        z-index: 3;
+        position: absolute;
+        left: 20px;
+        bottom: 40px;
+        font-size: 1.3em;
+        color: white;
+        font-weight: bold; }
+      #slider .sliderItems .item p {
+        z-index: 3;
+        position: absolute;
+        left: 20px;
+        bottom: 20px;
+        font-size: 1em;
+        color: lightblue; }
+  #slider .sliderButtons {
+    width: 100%;
+    position: absolute;
+    top: 35%;
+    z-index: 2; }
+    #slider .sliderButtons > div {
+      padding: 10px;
+      font-size: 3em;
+      font-family: Verdana;
+      cursor: pointer;
+      box-shadow: 0px 0px 5px white;
+      color: white;
+      text-shadow: 0px 0px 5px black; }
+    #slider .sliderButtons .left {
+      float: left; }
+    #slider .sliderButtons .right {
+      float: right; }
+
+/*# sourceMappingURL=style.css.map */

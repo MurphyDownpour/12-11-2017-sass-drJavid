@@ -1,0 +1,6 @@
+#home{
+	.wrapper{
+		@include column(400px,gray,$columnColor);
+		@extend .padding;
+	}
+}

@@ -1,0 +1,6 @@
+#team{
+	.wrapper{
+		@include column(200px,lighten($rowColor,30%),$columnColor+$rowColor);
+		@extend .padding;
+	}
+}

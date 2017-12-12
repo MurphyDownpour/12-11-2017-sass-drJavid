@@ -1,0 +1,61 @@
+$rowColor:#31a530;
+$columnColor:#28229b;
+$margin:5px;
+$mainWidth:800px;
+
+/* .wrapper{
+	width:$mainWidth;
+	margin:0 auto;
+
+}
+.row{
+	width:calc(100% - 10px);
+	margin:$margin 0px;
+	background:$rowColor;
+	border:2px solid darken($rowColor,10%);
+
+}
+.column{
+	width:$mainWidth/3 - 4*$margin;
+	height:$mainWidth/4;
+	display:inline-block;
+	padding:$margin;
+	margin:$margin;
+	color:lighten($columnColor,30%);
+	margin-right:-3px;
+	background:$columnColor;
+	box-shadow:0px 0px 10px  lighten($columnColor,20%)
+}
+
+ul{
+ 	margin:0;
+ 	padding:0;
+ 	li{
+		padding:10px;
+		background:$columnColor;
+		float:left;
+		list-style:none;
+		&:hover{
+			background:darken($columnColor,20%)
+		}
+		a{
+			text-decoration: none;
+			text-transform:uppercase;
+			color:lighten($columnColor,60%)
+		}
+
+ 	}
+} */
+
+@mixin column($height,$background,$color) {
+  height:$height;
+  background:$background;
+  color:$color;
+}
+.padding{
+	padding:$margin*4;
+}
+@import "home";
+@import "team";
+@import "gallery";
+@import "contact";
