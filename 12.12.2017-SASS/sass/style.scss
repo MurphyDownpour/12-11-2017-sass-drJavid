@@ -1,7 +1,7 @@
-$rowColor:#31a530;
-$columnColor:#28229b;
-$margin:5px;
-$mainWidth:800px;
+$rowColor: #31a530;
+$columnColor: #28229b;
+$margin: 5px;
+$mainWidth: 800px;
 
 /* .wrapper{
 	width:$mainWidth;
@@ -48,9 +48,9 @@ ul{
 } */
 
 @mixin column($height,$background,$color) {
-  height:$height;
-  background:$background;
-  color:$color;
+  height: $height;
+  background: $background;
+  color: $color;
 }
 .padding{
 	padding:$margin*4;
